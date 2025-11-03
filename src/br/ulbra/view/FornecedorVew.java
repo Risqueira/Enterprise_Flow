@@ -31,7 +31,7 @@ public class FornecedorVew extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        tbFornedor = new javax.swing.JTable();
+        tbFornecedor = new javax.swing.JTable();
         jLabel7 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         txtId = new javax.swing.JTextField();
@@ -59,7 +59,7 @@ public class FornecedorVew extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Edição de fornecedor");
 
-        tbFornedor.setModel(new javax.swing.table.DefaultTableModel(
+        tbFornecedor.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null}
             },
@@ -67,7 +67,7 @@ public class FornecedorVew extends javax.swing.JFrame {
                 "Id", "Razão social", "Nome fantasia", "Email", "Telefone", "CNPJ"
             }
         ));
-        jScrollPane1.setViewportView(tbFornedor);
+        jScrollPane1.setViewportView(tbFornecedor);
 
         jLabel7.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(0, 0, 0));
@@ -340,7 +340,7 @@ public class FornecedorVew extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable tbFornedor;
+    private javax.swing.JTable tbFornecedor;
     private javax.swing.JTextField txtCnpj;
     private javax.swing.JTextField txtEmail;
     private javax.swing.JTextField txtId;
