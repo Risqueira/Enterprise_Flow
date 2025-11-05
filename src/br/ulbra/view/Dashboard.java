@@ -36,6 +36,7 @@ public class Dashboard extends javax.swing.JFrame {
         jMenuItem7 = new javax.swing.JMenuItem();
         jMenuItem8 = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
+        jTextField1 = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -69,6 +70,8 @@ public class Dashboard extends javax.swing.JFrame {
         jMenuItem8.setText("jMenuItem8");
 
         jMenu3.setText("jMenu3");
+
+        jTextField1.setText("jTextField1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -109,7 +112,7 @@ public class Dashboard extends javax.swing.JFrame {
         jMenuBar1.setMinimumSize(new java.awt.Dimension(100, 23));
 
         mnCadastros.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        mnCadastros.setForeground(new java.awt.Color(255, 255, 255));
+        mnCadastros.setForeground(new java.awt.Color(0, 0, 0));
         mnCadastros.setText("Cadastros");
 
         mnFornecedor.setText("Fornecedor");
@@ -142,7 +145,7 @@ public class Dashboard extends javax.swing.JFrame {
         jMenuBar1.add(mnCadastros);
 
         mnListas.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        mnListas.setForeground(new java.awt.Color(255, 255, 255));
+        mnListas.setForeground(new java.awt.Color(0, 0, 0));
         mnListas.setText("Listas");
 
         mnClientes.setText("Clientes");
@@ -237,6 +240,7 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JMenu mnCadastros;
     private javax.swing.JMenuItem mnClientes;
     private javax.swing.JMenuItem mnFornecedor;
