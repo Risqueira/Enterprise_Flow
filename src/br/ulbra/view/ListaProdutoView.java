@@ -53,10 +53,10 @@ public class ListaProdutoView extends javax.swing.JFrame {
 
         tbProduto.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null}
+                {null, null, null, null, null, null}
             },
             new String [] {
-                "Id", "Nome", "Valor unitário", "Quantidade estoque", "Categoria"
+                "Id", "Nome", "Descrição", "Valor unitário", "Quantidade estoque", "Categoria"
             }
         ));
         jScrollPane2.setViewportView(tbProduto);
